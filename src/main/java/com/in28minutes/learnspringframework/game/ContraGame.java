@@ -1,10 +1,10 @@
 package com.in28minutes.learnspringframework.game;
 
-public class MarioGame implements GamingConsole {
+public class ContraGame implements GamingConsole {
 
     @Override
     public void up(){
-        System.out.println("up at the top");
+        System.out.println("up");
     }
     @Override
     public void down(){

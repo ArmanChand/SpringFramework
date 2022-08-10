@@ -1,5 +1,6 @@
 package com.in28minutes.learnspringframework;
 
+import com.in28minutes.learnspringframework.game.ContraGame;
 import com.in28minutes.learnspringframework.game.GameRunner;
 import com.in28minutes.learnspringframework.game.MarioGame;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +15,7 @@ public class LearnSpringFrameworkApplication {
 
 
 		MarioGame game = new MarioGame();
+//		ContraGame game = new ContraGame();
 
 		GameRunner runner = new GameRunner(game);
 		runner.runGame();

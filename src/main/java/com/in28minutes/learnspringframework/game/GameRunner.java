@@ -4,9 +4,9 @@ public class GameRunner {
 
     // Tightly coupled
 
-    private MarioGame game;
+    private GamingConsole game;
 
-    public GameRunner(MarioGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
