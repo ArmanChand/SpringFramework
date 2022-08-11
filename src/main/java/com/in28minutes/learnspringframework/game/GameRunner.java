@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class GameRunner {
 
-    // Tightly coupled
+    // loose coupled
 
     @Autowired
     private GamingConsole game;
